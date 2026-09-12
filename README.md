@@ -9,6 +9,11 @@
 - Team Lead: Mohammed Rayyan - KMEA Engineering College
 - Member 2: Sreesidh - KMEA Engineering College
 
+### Repository & Submission Links
+- **Official Pull Request (Target)**: [PR #160 on tinkerhub/useless_project_temp](https://github.com/tinkerhub/useless_project_temp/pull/160)
+- **Submission Fork**: [RayyanShajahan/useless_project_temp](https://github.com/RayyanShajahan/useless_project_temp) *(Forked from [tinkerhub/useless_project_temp](https://github.com/tinkerhub/useless_project_temp))*
+- **Original Research & Big Data Codebase**: [RayyanShajahan/mallu-memes](https://github.com/RayyanShajahan/mallu-memes)
+
 ### Project Description
 A real-time facial expression and biometric telemetry engine that scans your face via webcam or photo upload, extracts anatomical landmark geometry (smile stretch, jaw drop, micro-frowns) using MTCNN and DeepFace, and maps your psychological trauma directly to iconic Malayalam cult movie meme artifacts from a 250,000-record distributed Parquet corpus.
 
