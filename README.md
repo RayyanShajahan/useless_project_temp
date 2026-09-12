@@ -38,8 +38,8 @@ For Software:
 #### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/RayyanShajahan/mallu-memes.git
-cd mallu-memes
+git clone https://github.com/RayyanShajahan/useless_project_temp.git
+cd useless_project_temp
 
 # Create and activate Python virtual environment
 python -m venv .venv
@@ -62,30 +62,37 @@ streamlit run app.py
 ### For Software:
 
 #### Screenshots
-![Screenshot 1: Biometric Scanner & Cult Meme Match](https://raw.githubusercontent.com/RayyanShajahan/mallu-memes/main/assets/readme_scanner.png)
-*Live AI Auto-Scan showing MTCNN facial landmark tracking, smile ratio calculation, and instant Malayalam cult meme matching.*
+![Screenshot 1: Global Telemetry Observatory](screenshots/01_global_telemetry.png)
+*Statewide Cultural Sentiment Observatory: Aggregates live psychological pressure across Kerala, tracking the aggregate Kerala Mood Index (7.79/15) and affective distribution (Angry, Happy, Sad, Fear, Neutral).*
 
-![Screenshot 2: Curated Malayalam Meme Vault](https://raw.githubusercontent.com/RayyanShajahan/mallu-memes/main/assets/readme_vault.png)
-*Curated meme repository with filtered emotional archetypes, Manglish dialogue snippets, and KEW scores.*
+![Screenshot 2: Live Biometric Scanner & Cult Meme Match](screenshots/02_biometric_scanner_match.png)
+*Live Ocular Psyche Scanner: MTCNN detects facial landmarks in real time, computes geometric smile span ratio (0.95), and instantly pairs the user's grin with Ramanan from Punjabi House (99.4% Match).*
 
-![Screenshot 3: 250k-Record Parquet Meme Lake Explorer](https://raw.githubusercontent.com/RayyanShajahan/mallu-memes/main/assets/readme_lake.png)
-*Interactive distributed PySpark telemetry browser querying 250,000 synthesized cultural meme records.*
+![Screenshot 3: Vernacular Meme Vault](screenshots/03_vernacular_meme_vault.png)
+*Vernacular Meme Vault: High-resolution cult Malayalam meme artifacts indexed with Manglish dialogue captions, psychological archetypes, and Kerala Existential Weight (KEW) ratings.*
 
 #### Diagrams
-![Workflow Architecture](https://raw.githubusercontent.com/RayyanShajahan/mallu-memes/main/assets/readme_workflow.png)
-*Dual-Stream Neuro-Geometric Pipeline: MTCNN Keypoint Extraction $\to$ Physical Smile Span $\to$ Bayesian Prior DeepFace $\to$ Parquet Lake Vector Lookup.*
+```mermaid
+flowchart LR
+    A["Webcam / Upload"] --> B["MTCNN Keypoint Alignment"]
+    B --> C{"Mouth Ratio >= 0.89?"}
+    C -- "Yes" --> D["HAPPY (Geometric Smile)"]
+    C -- "No" --> E["DeepFace Vision Model"]
+    E --> F["Bayesian Prior Normalization"]
+    F --> G["Affective Intent (Sad, Angry, Fear, Surprise, Neutral)"]
+    D --> H["Columnar Parquet Engine"]
+    G --> H
+    H --> I["Matched Cult Meme + Manglish Dialogue + KEW Score"]
+```
 
 ---
 
 ## Project Demo
 
 ### Video
-[Demo Video Link](https://youtu.be/your-demo-video-link)
-*Live video walkthrough showing real-time webcam facial emotion scanning, micro-smile detection, and automatic Malayalam meme pairing.*
+📹 **[Watch Demo Video Walkthrough](demo/kerala_biometric_meme_engine_demo.mp4)**
 
-### Additional Demos
-- [Live Streamlit Local Dashboard](http://localhost:8501)
-- Pre-computed 250,000-row PySpark Parquet Lake (`biometric_memes.parquet`)
+*Walkthrough showing real-time webcam facial emotion scanning, micro-expression landmark tracking (MTCNN Geometric Smile), instant meme retrieval, and data exploration.*
 
 ---
 

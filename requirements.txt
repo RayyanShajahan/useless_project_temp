@@ -1,0 +1,12 @@
+streamlit
+deepface
+opencv-python
+pandas
+pyarrow
+fastparquet
+plotly
+pillow
+tensorflow
+tf-keras
+mtcnn
+nltk
